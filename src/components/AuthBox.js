@@ -3,10 +3,10 @@ import { Link } from 'gatsby'
 import styled from 'react-emotion'
 
 const Container = styled.div`
-  ${tw`bg-grey-lighter max-w-xs p-4 rounded shadow m-auto`};
+  ${tw`max-w-xs p-4 rounded m-auto`};
 `
 const LoginInput = styled.input`
-  ${tw`shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline`};
+  ${tw`shadow appearance-none border border-grey-lighter rounded-lg w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline`};
 `
 const InputLabel = styled.label`
   ${tw`block text-grey-darker text-sm font-bold my-2`};
